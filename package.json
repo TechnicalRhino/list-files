@@ -12,6 +12,10 @@
     "in",
     "directory"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TechnicalRhino/list-files.git"
+  },
   "author": "agnibha",
   "license": "ISC",
   "dependencies": {
