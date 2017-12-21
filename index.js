@@ -20,7 +20,8 @@ const readFilesAsyncPromise = (dir) => {
                     });
                 });
             } else {
-                resolve(fileList.push(dir));
+                fileList.push(dir)
+                resolve(fileList);
             }
         });
     });
@@ -43,7 +44,8 @@ const readFilesAsync = (dir, done) => {
                 });
             });
         } else {
-            done(null, fileList.push(dir));
+            fileList.push(dir)
+            done(null, fileList);
         }
     });
 };
